@@ -8,4 +8,4 @@ STUDYING SOC CONSTRAINTS FOR FUN WITH GIT
             #Last time period for ref, haha
     @constraint(UC, cStateOfChargeEnd,
         SOC[24] == start_charge)
-It's getting real!
+It's getting real

@@ -5,7 +5,7 @@ STUDYING SOC CONSTRAINTS FOR FUN WITH GIT
             #All other periods, excluding last period
     @constraint(UC, cStateOfCharge[t in T[T .> 1 .&& T .<=24]],
         SOC[t] == SOC[t-1] + (CHARGE[t]*phs_battery_eff - DISCHARGE[t]/phs_battery_eff))
-            #Last time period for ref
+            #Last time period for ref, haha
     @constraint(UC, cStateOfChargeEnd,
         SOC[24] == start_charge)
 It's getting real!

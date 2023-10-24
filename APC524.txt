@@ -1,3 +1,5 @@
+STUDYING SOC CONSTRAINTS
+
 @constraint(UC, cStateOfChargeStart,
     SOC[1] == start_charge + (CHARGE[1]*phs_battery_eff - DISCHARGE[1]/phs_battery_eff))
             #All other periods, excluding last period

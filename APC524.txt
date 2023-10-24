@@ -1,4 +1,4 @@
-STUDYING SOC CONSTRAINTS
+STUDYING SOC CONSTRAINTS FOR FUN WITH GIT
 
 @constraint(UC, cStateOfChargeStart,
     SOC[1] == start_charge + (CHARGE[1]*phs_battery_eff - DISCHARGE[1]/phs_battery_eff))
@@ -8,3 +8,4 @@ STUDYING SOC CONSTRAINTS
             #Last time period
     @constraint(UC, cStateOfChargeEnd,
         SOC[24] == start_charge)
+It's getting real!

@@ -9,3 +9,4 @@ STUDYING SOC CONSTRAINTS FOR FUN WITH GIT
     @constraint(UC, cStateOfChargeEnd,
         SOC[24] == start_charge)
 It's getting real!
+Ohhhhh Yeaahhhh Whoooo Deyyyyy Breatheeeee Oyamiee
